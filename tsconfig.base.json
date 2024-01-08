@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sqs-producer-consumer/app-constants": [
+        "libs/app-constants/src/index.ts"
+      ],
+      "@sqs-producer-consumer/sqs-service": ["libs/sqs-service/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,2 @@
+export const CONSUMER_MAX_NUMBER_OF_MESSAGES = 2;
+export const CONSUMER_WAIT_TIME_IN_SECONDS = 5;
